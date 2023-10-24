@@ -1,9 +1,9 @@
 import React from 'react';
 
-function TextArticle({ title, text, centerText }) {
-  const titleClasses = `font-bold text-4xl ${centerText ? 'text-center' : ''}`;
-  const textClasses = `font-light text-lg ${centerText ? 'px-auto lg:px-32 text-center' : ''} text-texty-gray`;
-  const divClasses = `flex flex-col gap-8 ${centerText ? 'items-center' : ''} pb-20`;
+function TextArticle({ title, text, additionalTitleClasses, additionalTextClasses, additionalDivClasses }) {
+  const titleClasses = `font-bold text-4xl ${additionalTitleClasses}`;
+  const textClasses = `font-light text-lg ${additionalTextClasses} text-texty-gray`;
+  const divClasses = `flex flex-col gap-8 ${additionalDivClasses} pb-20`;
 
   return (
     <div className={divClasses}>

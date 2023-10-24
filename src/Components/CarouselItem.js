@@ -3,7 +3,7 @@ import { LandingIcon } from './LandingIcon';
 
 function CarouselItem({ name, company, profilePic, comment, className }) {
   return (
-    <div className={`bg-gradient-to-t from-[#5A98F2] to-[#67C3F3] rounded-3xl px-[9vw] py-[3vw] mx-[3vw] ${className} overflow-hidden flex flex-col`}>
+    <div className={`bg-gradient-to-t from-[#5A98F2] to-[#67C3F3] rounded-3xl px-[9%] py-[3%] mx-[3%] ${className} overflow-hidden flex flex-col transition-opacity`}>
       <LandingIcon
         type="carouselDotts"
         className="absolute -right-12 -top-4"
@@ -16,7 +16,7 @@ function CarouselItem({ name, company, profilePic, comment, className }) {
         <div className="flex lg:flex-row lg:items-stretch items-center flex-col lg:mr-12 ">
           <img
             src={profilePic}
-            className="border-2 rounded-full overflow-hidden w-[137px] h-[137px] object-cover"
+            className="border-2 rounded-full overflow-hidden md:w-[10vw] md:h-[10vw] w-[14vh] h-[14vh] object-cover"
             alt="profile"
           />
           <div className="flex flex-col items-center lg:pl-6 ">

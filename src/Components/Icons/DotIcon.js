@@ -1,8 +1,8 @@
 import React from 'react';
 
-function DotIcon({color, className}) {
+function DotIcon({className}) {
   return (
-    <div className={`text-2xl ${color} ${className}`}>•</div>
+    <div className={`text-2xl ${className}`}>•</div>
   )
 }
 

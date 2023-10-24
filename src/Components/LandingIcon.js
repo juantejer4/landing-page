@@ -14,6 +14,8 @@ import { ReactComponent as CarouselDottsSVG} from "../imgs/carousel-dotts.svg";
 import { ReactComponent as smallRightArrowSVG} from "../imgs/small-right-arrow.svg";
 import { ReactComponent as ShapeSVG} from "../imgs/shape-2.svg";
 import { ReactComponent as MobileMenuSVG} from "../imgs/mobile-menu.svg";
+import { DotIcon } from '../Components/Icons/DotIcon';
+
 
 
 const iconTypes = {
@@ -32,7 +34,8 @@ const iconTypes = {
     "carouselDotts": CarouselDottsSVG,
     "smallRightArrow": smallRightArrowSVG,
     "shape": ShapeSVG,
-    "mobileMenu": MobileMenuSVG
+    "mobileMenu": MobileMenuSVG,
+    "singleDot": DotIcon 
 }
 
 function LandingIcon({type, className, fill}) {

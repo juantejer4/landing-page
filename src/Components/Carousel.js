@@ -14,7 +14,7 @@ function Carousel({ items }) {
           company={item.company}
           profilePic={item.profilePic}
           comment={item.comment}
-          className={`${index === items.length-1 ? "relative" : "absolute"} ${index === activeIndex ? "opacity-100" : "opacity-0"} transition-opacity`}
+          className={`${index === items.length-1 ? "relative" : "absolute"} ${index === activeIndex ? "opacity-100" : "opacity-0"}`}
         />
       ))}
       <CarouselNavbar dots={items.length} activeIndex={activeIndex} setActiveIndex={setActiveIndex} />

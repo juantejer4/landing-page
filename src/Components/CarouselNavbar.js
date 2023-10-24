@@ -1,13 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { LandingIcon } from "./LandingIcon";
-import { DotIcon } from "./Icons/DotIcon";
 
 function CarouselNavbar({ dots, activeIndex, setActiveIndex}) {
   const dotsArray = [...Array(dots)].map((_, i) => (
     <button key={i} onClick={() => setActiveIndex(i)}>
-    <DotIcon
-      color="text-primary-blue"
-      className={`${i === activeIndex ? "" : "opacity-50"} transition-all`}
+    <LandingIcon type="singleDot" className={`${i === activeIndex ? "" : "opacity-50"} transition-all text-primary-blue`}
     />
     </button>
   ));
