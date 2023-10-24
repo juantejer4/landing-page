@@ -21,7 +21,7 @@ function App() {
       <div className="relative w-screen">
         <LandingIcon type="dotts" className="absolute right-4" />
       </div>
-      <div className="mx-[10%] mt-[24%] relative">
+      <div className="mx-[10%] mt-48 relative">
         <Articles />
         <CarouselSection/>
         <LastestsArticles/>

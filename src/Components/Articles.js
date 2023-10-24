@@ -30,7 +30,7 @@ function Articles() {
                     web portal allow you to access information instantaneously (no tedeous form, long calls, 
                     or administrative hassle) and securely"
             />
-            <SecondaryButton className="border-2 lg:mb-0 mb-[10%]">
+            <SecondaryButton className="border-2 mb-[10%] lg:mb-0">
               Download
               <LandingIcon type="downArrow" fill="#458FF6" />
             </SecondaryButton>
