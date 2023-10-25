@@ -12,7 +12,6 @@ function Articles() {
           <img
             src={articleIllustration02}
             className="w-full"
-            alt="second article"
           />
           <div className="lg:pl-40 lg:pr-20">
             <TextArticle
@@ -38,7 +37,6 @@ function Articles() {
           <img
             src={articleIllustration03}
             className="w-full"
-            alt="third article"
           />
         </div>
     </>

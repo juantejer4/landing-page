@@ -21,7 +21,6 @@ function FeaturedCard() {
         <img
           src={mainArticleIllustration}
           className="lg:max-w-fit"
-          alt="main card"
         />
       </div>
     </div>
